@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className={sans.className}>
-      <body className='flex flex-col max-w-screen-lg mx-auto'>
+      <body className='flex flex-col max-w-screen-xl mx-auto'>
         <Header />
         <main className='grow'>{children}</main>
         <Footer />
