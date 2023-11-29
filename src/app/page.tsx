@@ -1,10 +1,11 @@
 import Avatar from '@/components/Avatar';
-import Link from 'next/link';
+import Posts from '@/components/posts/posts';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <section className=''>
       <Avatar />
+      <Posts />
     </section>
   );
 }
