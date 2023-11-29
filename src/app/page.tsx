@@ -1,3 +1,10 @@
+import Avatar from '@/components/Avatar';
+import Link from 'next/link';
+
 export default function Home() {
-  return <main className=' bg-gray-500'></main>;
+  return (
+    <section className=''>
+      <Avatar />
+    </section>
+  );
 }
